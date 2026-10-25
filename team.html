@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCB - Team</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        body {
+            font-family: Georgia, serif;
+            background: #f5f5f5;
+        }
+
+
+        header {
+            height: 90px;
+            background: #e60000;
+            display: flex;
+            align-items: center;
+            padding: 0 35px;
+            color: white;
+        }
+
+        .logo {
+            font-size: 38px;
+            font-weight: bold;
+            margin-right: 45px;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover,
+        nav .active {
+            color: #ffd700;
+        }
+
+
+        .team-banner {
+            height: 330px;
+            background:
+
+                url("https://images.unsplash.com/photo-1531415074968-036ba1b575da");
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .team-banner h1 {
+            font-size: 45px;
+            letter-spacing: 2px;
+        }
+
+        .team-banner p {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+
+
+        .players {
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        .players h2 {
+            color: #d40000;
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .player-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .player-card {
+            width: 230px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            transition: 0.3s;
+        }
+
+        .player-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .player-card img {
+            width: 100%;
+            height: 270px;
+            object-fit: contain;
+            background: #eeeeee;
+        }
+
+        .player-card h3 {
+            font-size: 21px;
+            margin: 15px 0 7px;
+        }
+
+        .player-card p {
+            color: #e00000;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .staff {
+            color: #d40000;
+        }
+
+        .w-player {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .w-player{
+            flex-wrap: wrap;
+        }
+    
+        
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <div class="logo">RCB</div>
+
+        <nav>
+            <a href="main.html">HOME</a>
+            <a href="news.html">NEWS</a>
+            <a href="team.html" active">TEAM</a>
+
+        </nav>
+    </header>
+
+
+    <section class="team-banner">
+        <h1>ROYAL CHALLENGERS BENGALURU</h1>
+        <p>OUR TEAM</p>
+    </section>
+
+    <section class="players">
+        <h2>RCB TEAM MEN</h2>
+
+        <div class="player-container">
+
+            <div class="player-card">
+                <img src="IMAGES/VIART.182.png">
+                <h3>Virat Kohli</h3>
+                <p>BATSMAN</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/phil salt.png">
+                <h3>Phil Salt</h3>
+                <p>ALLROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/RAJAT.PNG">
+                <h3>Rajat Patidar Captain</h3>
+                <p>BATSMAN</p>
+            </div>
+
+
+            <div class="player-card">
+                <img src="IMAGES/padikal.1.cms">
+                <h3>Devult padikal</h3>
+                <p>BATSMAN</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/Jacob.png">
+                <h3>Jacob Bethell</h3>
+                <p>ALL ROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/Tim david.cms">
+                <h3>Tim david</h3>
+                <p>ALL ROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/ROMareio.jpg">
+                <h3>Romario Shepherd</h3>
+                <p>ALL ROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/KRUNAL.cms">
+                <h3>Krunal pandya</h3>
+                <p>ALL ROUNDER</p>
+            </div>
+
+            <div class="player-card">
+                <img src="IMAGES/venkatesh-iyer-jpg.webp">
+                <h3>Venkatesh Iyer</h3>
+                <p>ALL ROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/satwik.avif">
+                <h3>Satwik deshwal</h3>
+                <p>ALL ROUNDER</p>
+
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/bhuvneshwar_kumar.webp">
+                <h3>BhuvaneshwarKumar</h3>
+                <p>Bowler</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/josh.cms">
+                <h3>Josh Hazelood</h3>
+                <p>Bowler</p>
+
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/rasik.jpg">
+                <h3>Rasikdar</h3>
+                <p>Bowler</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/suyash.jpg">
+                <h3>Suyash Sharma</h3>
+                <p>Bowler</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/jithesh new.jpg">
+                <h3>JitheshSharma</h3>
+                <p>Wicket keeper</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/jordon cox.webp">
+                <h3>Jordoncox</h3>
+                <p>Wicket keeper</p>
+            </div>
+
+        </div>
+        <br>
+        <h1 class="staff">WOMEN</h1>
+
+        <div class="w-player">
+            <div class="player-card">
+                <img src="IMAGES/smriti-mandhana.webp">
+                <h3>Smirthi Mandhana Captain</h3>
+                <p>BATSMAN</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/elleyes.cms">
+                <h3>Ellyse Perry</h3>
+                <P>ALLROUNDER</P>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/ghoss.jpg">
+                <h3>Richa Ghosh</h3>
+                <p>Wicket Keeper</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/radhav.jpg">
+                <h3>Radha Yadav</h3>
+                <p>ALLROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/Shreyanka-Patil.jpg">
+                <h3>Shreyanka Patil</h3>
+                <p>ALLROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/arundhati-reddy-rcb-wpl-2026.jpg">
+                <h3>Arundhati Reddy</h3>
+                <p>ALLROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/SAYALI.jpg">
+                <h3>Sayali Satghare</h3>
+                <p>ALLROUNDER</p>
+            </div>
+                <div class="player-card">           
+                <img src="IMAGES/Pratyoosha.png">
+                <h3>Prathyoosha Kumar</h3>
+                <p>ALLROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/prema.avif">
+                <h3>Prema Rawat</h3>
+                <p>ALLROUNDER</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/bell.webp">
+                <h3>Lauren Bell</h3>
+                <p>Bowler</p>
+            </div>
+            <div class="player-card">
+                <img src="IMAGES/georgia-voll-.jpg">
+                <h3>Georgia Voll</h3>
+                <p>BATSMAN</p>
+            </div>
+            
+        </div>
+
+</body>
+
+</html>

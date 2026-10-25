@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Website</title>
+
+    <style>
+        header {
+            background: #e60000;
+            color: white;
+            padding: 15px 40px;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            margin-top: 20px;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+
+        .container {
+            width: 92%;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 15px;
+        }
+
+
+        .main-news {
+            background: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .main-news img {
+            width: 100%;
+            height: 450px;
+        }
+
+        .headline {
+            position: absolute;
+            bottom: 25px;
+            left: 20px;
+            background: #e60000;
+            color: white;
+            padding: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            max-width: 85%;
+        }
+
+        .score-card {
+            background: #241c2b;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .score-card h3 {
+            color: #ffcc33;
+            margin-bottom: 20px;
+        }
+
+        .score {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .team {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .runs {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .winner {
+            background: #e60000;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin-top: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .winner:hover {
+            background: #ff3333;
+        }
+
+        .news-section {
+            width: 92%;
+            margin: auto;
+        }
+
+        .news-title {
+            background: #e60000;
+            color: white;
+            display: inline-block;
+            padding: 8px 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="top">
+            <div class="logo"><img src="IMAGES/logo.png" alt=""></div>
+            <div>🏆 🔴 ⚫</div>
+        </div>
+
+        <nav>
+            <a href="#">HOME</a>
+            <a href="/news.html">NEWS</a>
+            <a href="team.html">TEAM</a>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <div class="main-news">
+            <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da" alt="Cricket">
+
+            <div class="headline">
+                A VERY SATISFYING WIN – INDIA'S DOMINATING VICTORY
+            </div>
+            
+        </div>
+
+        <div class="score-card">
+            <h3>MAY 31 - 2026</h3>
+
+            <h2>ROYAL CHALLENGERS BENGALURU</h2>
+
+            <p>WINNER</p>
+
+            <div class="score">
+                <div>
+                    <div class="team">RCB</div>
+                    <div class="runs">161/5</div>
+                    <small>18.0 Overs</small>
+                </div>
+
+                <strong>VS</strong>
+
+                <div>
+                    <div class="team">PBKS</div>
+                    <div class="runs">155/8</div>
+                    <small>20 Overs</small>
+                </div>
+            </div>
+
+            <button class="winner">BUY MERCHANDISE</button>
+        </div>
+
+    </div>
+<p>Royal Challengers Bengaluru (RCB Official Website) won the IPL 2026 title by defeating the Gujarat Titans by 5 wickets in the final on May 31, 2026.Royal Challengers Bengaluru vs. Gujarat Titans at Narendra Modi Stadium, Ahmedabad on May 31, 2026.Gujarat Titans posted 155/8 in 20 overs (Washington Sundar 50*; Rasikh Salam 3/27), while RCB chased it scoring 161/5 in 18 overs (Virat Kohli 75* off 42, Venkatesh Iyer 32).Player of the Match: Virat Kohli, who also smashed his fastest IPL fifty off 25 balls.• Back-to-Back Titles: After their maiden win in 2025, RCB successfully defended the trophy in 2026, joining CSK and MI as franchises with consecutive titles.
+• Leadership: Captained by Rajat Patidar and coached by Andy Flower.Public celebrations and a welcome event in Bengaluru faced severe crowd control challenges, leading to tragic crowd crush incidents that drew statements from team management and players like Virat Kohli.</p>
+
+    <div class="news-section">
+    </div>
+
+</body>
+
+</html>
